@@ -2,7 +2,7 @@
   "name": "start-framework",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dev-fatoh.github.io/start-framework",
+  "homepage": "https://dev-fatoh.github.io/start-framework/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
