@@ -3,11 +3,11 @@ import Contact from "./pages/Contact.jsx";
 import Portifolio from "./pages/Portifolio.jsx";
 import About from "./pages/About.jsx";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./layout/Layout.jsx";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "",
       element: <Layout />,
