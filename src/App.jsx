@@ -12,6 +12,7 @@ function App() {
       path: "",
       element: <Layout />,
       children: [
+        { index: true, element: <Home title="start framework" /> },
         { path: "home", element: <Home title="start framework" /> },
         { path: "about", element: <About /> },
 
