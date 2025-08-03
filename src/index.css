@@ -1,15 +1,39 @@
 /*NAVBAR style*/
 
-.navbar-bg {
+.navbar-bg,
+.footer {
   background-color: #2c3e50;
 }
 
-.home {
+.home,
+.about {
   background-color: #1abc9c;
-  min-height: 80vh;
+  /*height: 80vh;*/
+}
+.home .container,
+.about .container {
+  height: 80vh;
+}
+.footer .container {
+  height: 30vh;
 }
 .left,
 .right {
   width: 100px;
   height: 3px;
+}
+.img-layer {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.wearper-img:hover .img-layer {
+  opacity: 1;
+}
+.model {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
 }
