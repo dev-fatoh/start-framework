@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="py-3 navbar-bg">
+    <div className="p-3 navbar-bg">
       <nav className="container navbar navbar-expand-lg">
         <Link className="navbar-brand fw-bold fs-2 text-white" to="/home">
           START FRAMEWORK

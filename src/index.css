@@ -14,9 +14,6 @@
 .about .container {
   height: 80vh;
 }
-.footer .container {
-  height: 30vh;
-}
 .left,
 .right {
   width: 100px;
@@ -28,6 +25,7 @@
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 0;
   transition: opacity 1s ease;
+  cursor: pointer;
 }
 .wearper-img:hover .img-layer {
   opacity: 1;

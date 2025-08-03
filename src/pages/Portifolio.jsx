@@ -8,6 +8,7 @@ import img4 from "../assets/portfolio/4.jpg";
 import img5 from "../assets/portfolio/5.jpg";
 import img6 from "../assets/portfolio/6.jpg";
 import { useState } from "react";
+import { faPlus } from "@fortawesome/free-solid-svg-icons/faPlus";
 const Portifolio = () => {
   const [model, setModel] = useState(false);
   const [showImage, setShowImage] = useState(null);
@@ -41,18 +42,25 @@ const Portifolio = () => {
             />
           </div>
         ) : (
-          <div className="row g-4 mt-4">
+          <div className="row g-4 my-4">
             {imagesId.map((img) => (
               <div className="col-md-4" key={img.id}>
                 <div
-                  className="position-relative wearper-img"
+                  className="position-relative wearper-img rounded-3 overflow-hidden"
                   onClick={() => {
                     setModel(true);
                     handleClick(img);
                   }}
                 >
                   <img src={img.src} alt="" className="w-100" />
-                  <div className="img-layer"></div>
+                  <div className="img-layer d-flex align-items-center justify-content-center">
+                    <FontAwesomeIcon
+                      icon={faPlus}
+                      color="white"
+                      size="4x"
+                      border
+                    />
+                  </div>
                 </div>
               </div>
             ))}
