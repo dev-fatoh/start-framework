@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="container text-center d-flex flex-column justify-content-center">
-        <img className="w-25 h-25 mx-auto" src={User} alt="user" />
+        <img className="w-50 h-50 mx-auto" src={User} alt="user" />
         <h2 className="fs-1 fw-bold text-light text-uppercase">
           start framework
         </h2>

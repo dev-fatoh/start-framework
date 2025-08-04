@@ -13,13 +13,13 @@ const About = () => {
           <div className="right bg-light"></div>
         </div>
         <article className="d-lg-flex gap-3 align-items-center justify-content-center mt-3">
-          <p className="text-light">
+          <p className="text-light fs-4">
             Freelancer is a free bootstrap theme created by Route. The download
             includes the complete source files including HTML, CSS, and
             JavaScript as well as optional SASS stylesheets for easy
             customization.
           </p>
-          <p className="text-light">
+          <p className="text-light fs-4">
             Freelancer is a free bootstrap theme created by Route. The download
             includes the complete source files including HTML, CSS, and
             JavaScript as well as optional SASS stylesheets for easy
