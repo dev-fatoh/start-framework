@@ -18,9 +18,12 @@ nav li .active {
   /*height: 80vh;*/
 }
 .home .container,
-.about .container {
-  height: 80vh;
+.about .container,
+.portifolio .container,
+.contact .container {
+  min-height: 80vh;
 }
+
 .left,
 .right {
   width: 100px;
